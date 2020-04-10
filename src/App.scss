@@ -12,12 +12,14 @@
 .header {
   width: 100%;
     max-width: 762px;
-    margin: 0 auto;
+    margin: 1rem auto;
+
 }
 
 .table {
   width: 100%;
   max-width: 762px;
+  position: relative;
   margin: 0 auto;
   border-collapse: collapse; 
 
@@ -34,9 +36,16 @@
 
   thead {
     border-spacing: 0 3rem;
-    background-color: #ffffff13;
+    background-color: #3C3F46;
     border-bottom: 2px solid white;
-
+    
+    th {
+      background-color: #3C3F46;
+      border-bottom: 2px solid white;
+      z-index: 999;
+      position: sticky;
+      top: 0;
+    }
   }
 
   tbody {

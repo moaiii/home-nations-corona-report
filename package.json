@@ -19,7 +19,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "node ./scraper/index.js; react-scripts build",
+    "deploy": "./deploy.sh",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

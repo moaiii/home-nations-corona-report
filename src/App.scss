@@ -1,0 +1,174 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 0.75rem;
+  color: white;
+}
+
+.header {
+  width: 100%;
+    max-width: 762px;
+    margin: 0 auto;
+}
+
+.table {
+  width: 100%;
+  max-width: 762px;
+  margin: 0 auto;
+  border-collapse: collapse; 
+
+  tfoot {
+    td {
+      padding: 3rem 0;
+    }
+
+    .about {
+      text-decoration: underline;
+      color: white;
+    }
+  }
+
+  thead {
+    border-spacing: 0 3rem;
+    background-color: #ffffff13;
+    border-bottom: 2px solid white;
+
+  }
+
+  tbody {
+    border-spacing:0 1rem;
+
+    .data-row {
+      border-bottom: 2px solid #ffffff13;
+
+      &.--scotland {
+        background-color: #2E62A9;
+      }
+      &.--wales {
+        background-color: #C12D3A;
+      }
+      &.--northern {
+        background-color: #469B64;
+      }
+      &.--england {
+        background-color: white;
+        color: #282c34;
+      }
+    }
+  }
+
+  th {
+    text-align: left;
+    position: relative;
+
+    span {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 4rem;
+      opacity: 0.2;
+    }
+  }
+
+  .table__header {
+    width: 100%;
+    display: flex;
+  }
+
+  .table-cell {
+    padding: 0.5rem;
+    min-width: calc(100% / 7);
+    text-align: left;
+    
+    &.--header {
+      &:hover {
+        background-color: white;
+        color: #282c34;
+      }
+
+      padding: 1rem 0.5rem;
+      cursor: pointer;
+      text-transform: capitalize;
+    }
+
+    &.--data {
+      border-right:hidden;
+      text-transform: uppercase;
+    }
+
+    div.flag {
+      width: 2rem;
+      height: 2rem;
+      background-size: 2rem; 
+      overflow: hidden;
+      background-color: white;
+      background-position: center;
+      border-radius: 50%;
+      background-size: cover;
+      position: relative;
+      border: 3px solid white;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social__link {
+  margin-left: 1rem;
+  width: 1rem;
+  height: 1rem;
+}
+
+.Social__icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.Social__logo {
+  width: 100%;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.Social__container {
+  // position: absolute;
+  width: 250px;
+  // margin: 0 auto;
+  // right: 0;
+  display: flex;
+  flex-direction: column-reverse;
+  height: 100%;
+}
+
+.social__link {
+  // margin-top: 2px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  svg {
+    width: 18px;
+    height: 18px;
+    fill: white;
+  }
+}

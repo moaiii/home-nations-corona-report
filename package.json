@@ -6,9 +6,16 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "array-sort": "^1.0.0",
+    "lodash.sortby": "^4.7.0",
+    "node-sass": "^4.13.1",
+    "puppeteer": "^2.1.1",
     "react": "^16.13.1",
+    "react-country-flag": "^2.0.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-svg": "^11.0.17",
+    "weak-key": "^1.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -19,6 +26,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "homepage": "http://covid-19-home-nations-in-the-world.s3-website-eu-west-1.amazonaws.com",
   "browserslist": {
     "production": [
       ">0.2%",

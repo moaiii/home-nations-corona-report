@@ -1,0 +1,91 @@
+import React, { Component } from 'react';
+import {ReactComponent as FacebookIcon} from './assets/facebook.svg';
+import {ReactComponent as TwitterIcon} from './assets/twitter.svg';
+import {ReactComponent as InfoLogo} from './assets/info.svg';
+
+
+export default class Social extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      animate: ''
+    };
+  }
+
+  handleInfoModalOpen = (e) => {
+    e.preventDefault();
+    this.props.openWalkThroughInfo(true);
+  }
+
+  handleSocialClick = (e) => {
+    e.preventDefault();
+    let network = e.currentTarget.getAttribute('data-network'); 
+    let description = "How have the individual Home Nations responded to COVID 19 compare to the rest of the world?" 
+    let href;
+
+    switch (network) {
+      case 'facebook':
+        href = 'https://www.facebook.com/sharer/sharer.php?u=' 
+        + `http://covid-19-home-nations-in-the-world.s3-website-eu-west-1.amazonaws.com`;
+        break;
+      
+      case 'twitter':
+        href = 'https://twitter.com/intent/tweet?text=' 
+        + description 
+        + '&url=' + `http://covid-19-home-nations-in-the-world.s3-website-eu-west-1.amazonaws.com`;
+        break;
+      
+      default: 
+        alert('Oops social sharing isnt working at present');
+    }
+
+    window.open(
+      href,
+      '',
+      'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=253,width=600'
+    );
+  }
+
+  handleInfoClick = (e) => {
+    e.preventDefault();
+    // store.dispatch(actions.showModal(true));
+  }
+
+  handleHomeClick = () => {
+    window.open(process.env.PUBLIC_URL);
+  }
+
+  render() {
+    const { classMod } = this.props;
+    const { animate } = this.state;
+
+    return (
+      <div className={`Social__container ${animate} ${classMod}`}>
+        <div className="Social__icons">
+          <p>SHARE: </p>
+          {/* <div className="social__link --info"
+            onClick={e => this.handleInfoClick(e)}>
+            <a href="">
+              <InfoLogo />
+            </a>
+          </div> */}
+          <div className="social__link --facebook"
+            onClick={e => this.handleSocialClick(e)}
+            data-network="facebook" >
+            <a href="">
+              <FacebookIcon />
+            </a>
+          </div>
+          <div className="social__link --twitter"
+            onClick={e => this.handleSocialClick(e)}
+            data-network="twitter" >
+            <a href="">
+              <TwitterIcon />
+            </a>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}

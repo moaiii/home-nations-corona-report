@@ -1,0 +1,172 @@
+[
+  {
+    "flag": "belgium",
+    "country": "belgium",
+    "population": 11.4,
+    "cases": 19691,
+    "deaths": 1447,
+    "mortality rate": 7.35,
+    "cases per million": 1727,
+    "deaths per million": 127
+  },
+  {
+    "flag": "canada",
+    "country": "canada",
+    "population": 37.59,
+    "cases": 14018,
+    "deaths": 234,
+    "mortality rate": 1.67,
+    "cases per million": 373,
+    "deaths per million": 6
+  },
+  {
+    "flag": "china",
+    "country": "china",
+    "population": 1339.7,
+    "cases": 81669,
+    "deaths": 3329,
+    "mortality rate": 4.08,
+    "cases per million": 61,
+    "deaths per million": 2
+  },
+  {
+    "flag": "england",
+    "country": "england",
+    "population": 55.98,
+    "cases": 45968,
+    "deaths": 5655,
+    "mortality rate": 12.30,
+    "cases per million": 821,
+    "deaths per million": 101
+  },
+  {
+    "flag": "france",
+    "country": "france",
+    "population": 66.99,
+    "cases": 89953,
+    "deaths": 7560,
+    "mortality rate": 8.40,
+    "cases per million": 1343,
+    "deaths per million": 113
+  },
+  {
+    "flag": "germany",
+    "country": "germany",
+    "population": 82.79,
+    "cases": 96109,
+    "deaths": 1446,
+    "mortality rate": 1.50,
+    "cases per million": 1161,
+    "deaths per million": 17
+  },
+  {
+    "flag": "iran",
+    "country": "iran",
+    "population": 81.16,
+    "cases": 58226,
+    "deaths": 3603,
+    "mortality rate": 6.19,
+    "cases per million": 717,
+    "deaths per million": 44
+  },
+  {
+    "flag": "italy",
+    "country": "italy",
+    "population": 60.48,
+    "cases": 124884,
+    "deaths": 15395,
+    "mortality rate": 12.33,
+    "cases per million": 2065,
+    "deaths per million": 255
+  },
+  {
+    "flag": "netherlands",
+    "country": "netherlands",
+    "population": 17.18,
+    "cases": 16627,
+    "deaths": 1651,
+    "mortality rate": 9.93,
+    "cases per million": 968,
+    "deaths per million": 96
+  },
+  {
+    "flag": "northern ireland",
+    "country": "northern ireland",
+    "population": 1.88,
+    "cases": 1255,
+    "deaths": 70,
+    "mortality rate": 5.58,
+    "cases per million": 668,
+    "deaths per million": 37
+  },
+  {
+    "flag": "scotland",
+    "country": "scotland",
+    "population": 5.45,
+    "cases": 4229,
+    "deaths": 222,
+    "mortality rate": 5.25,
+    "cases per million": 776,
+    "deaths per million": 41
+  },
+  {
+    "flag": "spain",
+    "country": "spain",
+    "population": 46.66,
+    "cases": 130759,
+    "deaths": 12418,
+    "mortality rate": 9.50,
+    "cases per million": 2802,
+    "deaths per million": 266
+  },
+  {
+    "flag": "switzerland",
+    "country": "switzerland",
+    "population": 8.57,
+    "cases": 20510,
+    "deaths": 666,
+    "mortality rate": 3.25,
+    "cases per million": 2393,
+    "deaths per million": 78
+  },
+  {
+    "flag": "turkey",
+    "country": "turkey",
+    "population": 80.81,
+    "cases": 23934,
+    "deaths": 501,
+    "mortality rate": 2.09,
+    "cases per million": 296,
+    "deaths per million": 6
+  },
+  {
+    "flag": "uk",
+    "country": "uk",
+    "population": 66.44,
+    "cases": 41903,
+    "deaths": 4313,
+    "mortality rate": 10.29,
+    "cases per million": 631,
+    "deaths per million": 65
+  },
+  {
+    "flag": "usa",
+    "country": "usa",
+    "population": 327.2,
+    "cases": 312253,
+    "deaths": 8515,
+    "mortality rate": 2.73,
+    "cases per million": 954,
+    "deaths per million": 26
+  },
+  {
+    "flag": "wales",
+    "country": "wales",
+    "population": 3.13,
+    "cases": 3790,
+    "deaths": 212,
+    "mortality rate": 5.59,
+    "cases per million": 1211,
+    "deaths per million": 68
+  }
+]

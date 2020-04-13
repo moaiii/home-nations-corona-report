@@ -38,7 +38,7 @@ const FLAGS = {
   "romania": "/flags/romania.png",
   "russia": "/flags/russia.png",
   "scotland": "/flags/scotland.png",
-  "south korea": "/flags/southkorea.png",
+  "s. korea": "/flags/southkorea.png",
   "spain": "/flags/spain.png",
   "sweden": "/flags/sweden.png",
   "switzerland": "/flags/switzerland.png",
@@ -70,7 +70,7 @@ function numberWithCommas(x) {
   return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
-const COLUMNS = {
+const POPULATION_COLUMNS = {
   FLAG: "",
   COUNTRY: "country",
   POPULATION: "population",
@@ -79,6 +79,16 @@ const COLUMNS = {
   MORTALITY: "mortality",
   CASES_POP: "casesPerMillion",
   DEATHS_POP: "deathsPerMillion",
+}
+
+const LAND_COLUMNS = {
+  FLAG: "",
+  COUNTRY: "country",
+  LAND: "landSquareMiles",
+  CASES: "cases",
+  DEATHS: "deaths",
+  CASES_HUNDRED_SQ_MILES: "casesPerHundredSquareMile",
+  DEATHS_HUNDRED_SQ_MILES: "deathsPerHundredSquareMile",
 }
 
 class App extends React.Component {
@@ -90,7 +100,8 @@ class App extends React.Component {
       organisedData: [],
       filterValue: null,
       direction: 'desc',
-      isModalOpen: false
+      isModalOpen: false,
+      viewMode: 'land'
     }
   }
 
@@ -117,10 +128,13 @@ class App extends React.Component {
       organisedData,
       filterValue,
       direction,
-      isModalOpen
+      isModalOpen,
+      viewMode
     } = this.state
 
     const modalClassMod = isModalOpen ? '--open' : ''
+
+    const COLUMNS = viewMode === 'land' ? LAND_COLUMNS : POPULATION_COLUMNS
 
     return (
       <div className="App">
@@ -177,6 +191,17 @@ class App extends React.Component {
           </div>
           <p style={{fontSize: '1rem'}} >A detailed look at how the home nations of Scotland, England, Northern Ireland & Wales have dealt with the Coronavirus in relation to the rest of the world. Updated daily. <strong>Click the column headers to explore the stats.</strong></p>
           <button className="more-info" onClick={() => this.setState({isModalOpen: true})}>More info</button>
+          <p>View stats by</p>
+          <button 
+            className={`view-mode --population ${this.state.viewMode === 'population' ? '--active' : ''}`} 
+            onClick={() => this.setState({viewMode: 'population'})}>
+              Population
+          </button>
+          <button 
+            className={`view-mode --land ${this.state.viewMode === 'land' ? '--active' : ''}`} 
+            onClick={() => this.setState({viewMode: 'land'})}>
+              Land
+            </button>
         </div>
         <table className="table" /* cellspacing="0" */>
           <thead >
@@ -214,6 +239,27 @@ class App extends React.Component {
                       <p>rate</p>
                     </React.Fragment>
                   )
+                } else if (el[1] === 'landSquareMiles') {
+                  headerContent = (
+                    <React.Fragment>
+                      <p>land</p>
+                      <p>(sq miles)</p>
+                    </React.Fragment>
+                  )
+                } else if (el[1] === 'deathsPerHundredSquareMile') {
+                  headerContent = (
+                    <React.Fragment>
+                      <p>deaths</p>
+                      <p>/ 100 sq miles</p>
+                    </React.Fragment>
+                  )
+                } else if (el[1] === 'casesPerHundredSquareMile') {
+                  headerContent = (
+                    <React.Fragment>
+                      <p>cases</p>
+                      <p>/ 100 sq miles</p>
+                    </React.Fragment>
+                  )
                 } else {
                   headerContent = (
                     <React.Fragment>
@@ -224,7 +270,7 @@ class App extends React.Component {
 
                 return (
                   <th key={el[1]}
-                    className="table-cell --header" 
+                    className={`table-cell --header ${filterValue === el[1] ? '--active' : ''}`}
                     onClick={(e) => this.updateData(el[1])}>
                     {(filterValue === el[1] && direction === 'asc') && <span>&#x2191;</span>}
                     {headerContent}
@@ -236,10 +282,15 @@ class App extends React.Component {
           </thead>
           <tbody>
               {organisedData.length > 0 && organisedData.map((el, ridx) => {
-                const values = Object.values(el)
+                const $ = Object.values(el)
+
+                const values = viewMode === 'population' 
+                  ? $.slice(0, 8)
+                  : [$[0], $[1], $[8], $[3], $[4], $[9], $[10]]
+
                 const country = values[1]
-  
-                return (
+
+                return (  
                   <tr className={`data-row --${country}`} key={key({el})} >
                     {values.map((val, idx) => {
                       let flagUrl = process.env.PUBLIC_URL + FLAGS[values[1]]
@@ -262,12 +313,12 @@ class App extends React.Component {
                               marginRight: '1rem',
                               backgroundImage: `url(${flagUrl})`,
                             }} />
-                            <p >{val}</p>
+                            <p>{val}</p>
                           </div>
                         )
                       } else {
                         const _val = numberWithCommas(val)
-                        content = idx === 5 ? _val + " %" : _val
+                        content = idx === 5 && viewMode === 'population' ? _val + " %" : _val
                       }
 
                       const countryMod = idx === 1 ? '--country' : ''

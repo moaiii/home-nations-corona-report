@@ -3,11 +3,14 @@
     "rank": 0,
     "country": "usa",
     "population": 327.2,
-    "cases": 560433,
-    "deaths": 22115,
-    "mortality": 3.95,
-    "casesPerMillion": 1713,
-    "deathsPerMillion": 68
+    "cases": 562742,
+    "deaths": 22163,
+    "mortality": 3.94,
+    "casesPerMillion": 1720,
+    "deathsPerMillion": 68,
+    "landSquareMiles": 3531823,
+    "casesPerHundredSquareMile": 15.93,
+    "deathsPerHundredSquareMile": 0.63
   },
   {
     "rank": 0,
@@ -17,7 +20,10 @@
     "deaths": 17489,
     "mortality": 10.32,
     "casesPerMillion": 3633,
-    "deathsPerMillion": 375
+    "deathsPerMillion": 375,
+    "landSquareMiles": 192587,
+    "casesPerHundredSquareMile": 88.01,
+    "deathsPerHundredSquareMile": 9.08
   },
   {
     "rank": 0,
@@ -27,7 +33,10 @@
     "deaths": 19899,
     "mortality": 12.73,
     "casesPerMillion": 2585,
-    "deathsPerMillion": 329
+    "deathsPerMillion": 329,
+    "landSquareMiles": 113568,
+    "casesPerHundredSquareMile": 137.68,
+    "deathsPerHundredSquareMile": 17.52
   },
   {
     "rank": 0,
@@ -37,17 +46,23 @@
     "deaths": 14393,
     "mortality": 10.86,
     "casesPerMillion": 1979,
-    "deathsPerMillion": 215
+    "deathsPerMillion": 215,
+    "landSquareMiles": 211412,
+    "casesPerHundredSquareMile": 62.72,
+    "deathsPerHundredSquareMile": 6.81
   },
   {
     "rank": 0,
     "country": "germany",
     "population": 82.79,
-    "cases": 127854,
+    "cases": 127916,
     "deaths": 3022,
     "mortality": 2.36,
-    "casesPerMillion": 1544,
-    "deathsPerMillion": 37
+    "casesPerMillion": 1545,
+    "deathsPerMillion": 37,
+    "landSquareMiles": 134580,
+    "casesPerHundredSquareMile": 95.05,
+    "deathsPerHundredSquareMile": 2.25
   },
   {
     "rank": 0,
@@ -57,7 +72,10 @@
     "deaths": 11329,
     "mortality": 12.78,
     "casesPerMillion": 1334,
-    "deathsPerMillion": 171
+    "deathsPerMillion": 171,
+    "landSquareMiles": 93410,
+    "casesPerHundredSquareMile": 94.87,
+    "deathsPerHundredSquareMile": 12.13
   },
   {
     "rank": 0,
@@ -67,7 +85,10 @@
     "deaths": 3341,
     "mortality": 4.07,
     "casesPerMillion": 61,
-    "deathsPerMillion": 2
+    "deathsPerMillion": 2,
+    "landSquareMiles": 3624792,
+    "casesPerHundredSquareMile": 2.27,
+    "deathsPerHundredSquareMile": 0.09
   },
   {
     "rank": 0,
@@ -77,7 +98,10 @@
     "deaths": 4585,
     "mortality": 6.25,
     "casesPerMillion": 903,
-    "deathsPerMillion": 56
+    "deathsPerMillion": 56,
+    "landSquareMiles": 628784,
+    "casesPerHundredSquareMile": 11.66,
+    "deathsPerHundredSquareMile": 0.73
   },
   {
     "rank": 0,
@@ -87,7 +111,10 @@
     "deaths": 1198,
     "mortality": 2.1,
     "casesPerMillion": 705,
-    "deathsPerMillion": 15
+    "deathsPerMillion": 15,
+    "landSquareMiles": 297155,
+    "casesPerHundredSquareMile": 19.17,
+    "deathsPerHundredSquareMile": 0.4
   },
   {
     "rank": 0,
@@ -97,7 +124,10 @@
     "deaths": 3903,
     "mortality": 12.76,
     "casesPerMillion": 2683,
-    "deathsPerMillion": 342
+    "deathsPerMillion": 342,
+    "landSquareMiles": 11692,
+    "casesPerHundredSquareMile": 261.62,
+    "deathsPerHundredSquareMile": 33.38
   },
   {
     "rank": 0,
@@ -107,37 +137,49 @@
     "deaths": 2823,
     "mortality": 10.63,
     "casesPerMillion": 1545,
-    "deathsPerMillion": 164
+    "deathsPerMillion": 164,
+    "landSquareMiles": 13020,
+    "casesPerHundredSquareMile": 203.92,
+    "deathsPerHundredSquareMile": 21.68
   },
   {
     "rank": 0,
     "country": "switzerland",
     "population": 8.57,
-    "cases": 25503,
-    "deaths": 1117,
-    "mortality": 4.38,
-    "casesPerMillion": 2976,
-    "deathsPerMillion": 130
+    "cases": 25623,
+    "deaths": 1129,
+    "mortality": 4.41,
+    "casesPerMillion": 2990,
+    "deathsPerMillion": 132,
+    "landSquareMiles": 15258,
+    "casesPerHundredSquareMile": 167.93,
+    "deathsPerHundredSquareMile": 7.4
   },
   {
     "rank": 0,
     "country": "canada",
     "population": 37.59,
-    "cases": 24383,
+    "cases": 24804,
     "deaths": 717,
-    "mortality": 2.94,
-    "casesPerMillion": 649,
-    "deathsPerMillion": 19
+    "mortality": 2.89,
+    "casesPerMillion": 660,
+    "deathsPerMillion": 19,
+    "landSquareMiles": 3511008,
+    "casesPerHundredSquareMile": 0.71,
+    "deathsPerHundredSquareMile": 0.02
   },
   {
     "rank": 0,
     "country": "brazil",
     "population": 209.3,
-    "cases": 22318,
-    "deaths": 1241,
-    "mortality": 5.56,
-    "casesPerMillion": 107,
-    "deathsPerMillion": 6
+    "cases": 22625,
+    "deaths": 1245,
+    "mortality": 5.5,
+    "casesPerMillion": 108,
+    "deathsPerMillion": 6,
+    "landSquareMiles": 3227082,
+    "casesPerHundredSquareMile": 0.7,
+    "deathsPerHundredSquareMile": 0.04
   },
   {
     "rank": 0,
@@ -147,7 +189,10 @@
     "deaths": 148,
     "mortality": 0.81,
     "casesPerMillion": 127,
-    "deathsPerMillion": 1
+    "deathsPerMillion": 1,
+    "landSquareMiles": 6323116,
+    "casesPerHundredSquareMile": 0.29,
+    "deathsPerHundredSquareMile": 0
   },
   {
     "rank": 0,
@@ -157,27 +202,36 @@
     "deaths": 535,
     "mortality": 3.16,
     "casesPerMillion": 1647,
-    "deathsPerMillion": 52
+    "deathsPerMillion": 52,
+    "landSquareMiles": 35363,
+    "casesPerHundredSquareMile": 47.89,
+    "deathsPerHundredSquareMile": 1.51
   },
   {
     "rank": 0,
     "country": "austria",
     "population": 8.86,
-    "cases": 13999,
+    "cases": 14018,
     "deaths": 368,
     "mortality": 2.63,
-    "casesPerMillion": 1580,
-    "deathsPerMillion": 42
+    "casesPerMillion": 1582,
+    "deathsPerMillion": 42,
+    "landSquareMiles": 31819,
+    "casesPerHundredSquareMile": 44.06,
+    "deathsPerHundredSquareMile": 1.16
   },
   {
     "rank": 0,
     "country": "israel",
     "population": 8.71,
     "cases": 11235,
-    "deaths": 110,
-    "mortality": 0.98,
+    "deaths": 113,
+    "mortality": 1.01,
     "casesPerMillion": 1290,
-    "deathsPerMillion": 13
+    "deathsPerMillion": 13,
+    "landSquareMiles": 8356,
+    "casesPerHundredSquareMile": 134.45,
+    "deathsPerHundredSquareMile": 1.35
   },
   {
     "rank": 0,
@@ -187,7 +241,23 @@
     "deaths": 919,
     "mortality": 8.39,
     "casesPerMillion": 1070,
-    "deathsPerMillion": 90
+    "deathsPerMillion": 90,
+    "landSquareMiles": 158433,
+    "casesPerHundredSquareMile": 6.91,
+    "deathsPerHundredSquareMile": 0.58
+  },
+  {
+    "rank": 0,
+    "country": "s. korea",
+    "population": 51.47,
+    "cases": 10537,
+    "deaths": 217,
+    "mortality": 2.06,
+    "casesPerMillion": 205,
+    "deathsPerMillion": 4,
+    "landSquareMiles": 37541,
+    "casesPerHundredSquareMile": 28.07,
+    "deathsPerHundredSquareMile": 0.58
   },
   {
     "rank": 0,
@@ -197,7 +267,10 @@
     "deaths": 334,
     "mortality": 3.46,
     "casesPerMillion": 1970,
-    "deathsPerMillion": 68
+    "deathsPerMillion": 68,
+    "landSquareMiles": 26599,
+    "casesPerHundredSquareMile": 36.3,
+    "deathsPerHundredSquareMile": 1.26
   },
   {
     "rank": 0,
@@ -207,7 +280,23 @@
     "deaths": 331,
     "mortality": 3.58,
     "casesPerMillion": 7,
-    "deathsPerMillion": 0
+    "deathsPerMillion": 0,
+    "landSquareMiles": 1147950,
+    "casesPerHundredSquareMile": 0.8,
+    "deathsPerHundredSquareMile": 0.03
+  },
+  {
+    "rank": 0,
+    "country": "chile",
+    "population": 18.05,
+    "cases": 7525,
+    "deaths": 82,
+    "mortality": 1.09,
+    "casesPerMillion": 417,
+    "deathsPerMillion": 5,
+    "landSquareMiles": 287078,
+    "casesPerHundredSquareMile": 2.62,
+    "deathsPerHundredSquareMile": 0.03
   },
   {
     "rank": 0,
@@ -217,7 +306,10 @@
     "deaths": 193,
     "mortality": 2.57,
     "casesPerMillion": 229,
-    "deathsPerMillion": 6
+    "deathsPerMillion": 6,
+    "landSquareMiles": 494209,
+    "casesPerHundredSquareMile": 1.52,
+    "deathsPerHundredSquareMile": 0.04
   },
   {
     "rank": 0,
@@ -227,7 +319,10 @@
     "deaths": 333,
     "mortality": 4.46,
     "casesPerMillion": 449,
-    "deathsPerMillion": 20
+    "deathsPerMillion": 20,
+    "landSquareMiles": 95892,
+    "casesPerHundredSquareMile": 7.79,
+    "deathsPerHundredSquareMile": 0.35
   },
   {
     "rank": 0,
@@ -237,27 +332,23 @@
     "deaths": 123,
     "mortality": 1.67,
     "casesPerMillion": 58,
-    "deathsPerMillion": 1
-  },
-  {
-    "rank": 0,
-    "country": "chile",
-    "population": 18.05,
-    "cases": 7213,
-    "deaths": 80,
-    "mortality": 1.11,
-    "casesPerMillion": 400,
-    "deathsPerMillion": 4
+    "deathsPerMillion": 1,
+    "landSquareMiles": 140755,
+    "casesPerHundredSquareMile": 5.24,
+    "deathsPerHundredSquareMile": 0.09
   },
   {
     "rank": 0,
     "country": "poland",
     "population": 37.97,
-    "cases": 6674,
-    "deaths": 232,
-    "mortality": 3.48,
-    "casesPerMillion": 176,
-    "deathsPerMillion": 6
+    "cases": 6934,
+    "deaths": 245,
+    "mortality": 3.53,
+    "casesPerMillion": 183,
+    "deathsPerMillion": 6,
+    "landSquareMiles": 118236,
+    "casesPerHundredSquareMile": 5.86,
+    "deathsPerHundredSquareMile": 0.21
   },
   {
     "rank": 0,
@@ -267,17 +358,23 @@
     "deaths": 318,
     "mortality": 4.79,
     "casesPerMillion": 342,
-    "deathsPerMillion": 16
+    "deathsPerMillion": 16,
+    "landSquareMiles": 88869,
+    "casesPerHundredSquareMile": 7.46,
+    "deathsPerHundredSquareMile": 0.36
   },
   {
     "rank": 0,
     "country": "norway",
     "population": 5.37,
-    "cases": 6527,
-    "deaths": 131,
-    "mortality": 2.01,
-    "casesPerMillion": 1215,
-    "deathsPerMillion": 24
+    "cases": 6547,
+    "deaths": 133,
+    "mortality": 2.03,
+    "casesPerMillion": 1219,
+    "deathsPerMillion": 25,
+    "landSquareMiles": 141031,
+    "casesPerHundredSquareMile": 4.64,
+    "deathsPerHundredSquareMile": 0.09
   },
   {
     "rank": 0,
@@ -287,7 +384,10 @@
     "deaths": 61,
     "mortality": 0.96,
     "casesPerMillion": 258,
-    "deathsPerMillion": 2
+    "deathsPerMillion": 2,
+    "landSquareMiles": 2966139,
+    "casesPerHundredSquareMile": 0.21,
+    "deathsPerHundredSquareMile": 0
   },
   {
     "rank": 0,
@@ -297,17 +397,23 @@
     "deaths": 285,
     "mortality": 4.51,
     "casesPerMillion": 1128,
-    "deathsPerMillion": 51
+    "deathsPerMillion": 51,
+    "landSquareMiles": 16383,
+    "casesPerHundredSquareMile": 38.56,
+    "deathsPerHundredSquareMile": 1.74
   },
   {
     "rank": 0,
     "country": "pakistan",
     "population": 197,
-    "cases": 5374,
+    "cases": 5493,
     "deaths": 93,
-    "mortality": 1.73,
-    "casesPerMillion": 27,
-    "deathsPerMillion": 0
+    "mortality": 1.69,
+    "casesPerMillion": 28,
+    "deathsPerMillion": 0,
+    "landSquareMiles": 297638,
+    "casesPerHundredSquareMile": 1.85,
+    "deathsPerHundredSquareMile": 0.03
   },
   {
     "rank": 0,
@@ -317,7 +423,10 @@
     "deaths": 65,
     "mortality": 1.32,
     "casesPerMillion": 142,
-    "deathsPerMillion": 2
+    "deathsPerMillion": 2,
+    "landSquareMiles": 829997,
+    "casesPerHundredSquareMile": 0.59,
+    "deathsPerHundredSquareMile": 0.01
   },
   {
     "rank": 0,
@@ -327,7 +436,10 @@
     "deaths": 315,
     "mortality": 6.39,
     "casesPerMillion": 47,
-    "deathsPerMillion": 3
+    "deathsPerMillion": 3,
+    "landSquareMiles": 115124,
+    "casesPerHundredSquareMile": 4.28,
+    "deathsPerHundredSquareMile": 0.27
   },
   {
     "rank": 0,
@@ -337,7 +449,10 @@
     "deaths": 77,
     "mortality": 1.6,
     "casesPerMillion": 152,
-    "deathsPerMillion": 2
+    "deathsPerMillion": 2,
+    "landSquareMiles": 126854,
+    "casesPerHundredSquareMile": 3.8,
+    "deathsPerHundredSquareMile": 0.06
   },
   {
     "rank": 0,
@@ -347,7 +462,10 @@
     "deaths": 296,
     "mortality": 6.35,
     "casesPerMillion": 36,
-    "deathsPerMillion": 2
+    "deathsPerMillion": 2,
+    "landSquareMiles": 750560,
+    "casesPerHundredSquareMile": 0.62,
+    "deathsPerHundredSquareMile": 0.04
   },
   {
     "rank": 0,
@@ -357,7 +475,10 @@
     "deaths": 399,
     "mortality": 8.76,
     "casesPerMillion": 17,
-    "deathsPerMillion": 1
+    "deathsPerMillion": 1,
+    "landSquareMiles": 699448,
+    "casesPerHundredSquareMile": 0.65,
+    "deathsPerHundredSquareMile": 0.06
   },
   {
     "rank": 0,
@@ -367,7 +488,10 @@
     "deaths": 85,
     "mortality": 2.1,
     "casesPerMillion": 464,
-    "deathsPerMillion": 10
+    "deathsPerMillion": 10,
+    "landSquareMiles": 33769,
+    "casesPerHundredSquareMile": 12.01,
+    "deathsPerHundredSquareMile": 0.25
   },
   {
     "rank": 0,
@@ -377,7 +501,10 @@
     "deaths": 87,
     "mortality": 2.56,
     "casesPerMillion": 791,
-    "deathsPerMillion": 20
+    "deathsPerMillion": 20,
+    "landSquareMiles": 28703,
+    "casesPerHundredSquareMile": 11.85,
+    "deathsPerHundredSquareMile": 0.3
   },
   {
     "rank": 0,
@@ -387,7 +514,23 @@
     "deaths": 66,
     "mortality": 2.01,
     "casesPerMillion": 5292,
-    "deathsPerMillion": 106
+    "deathsPerMillion": 106,
+    "landSquareMiles": 1000,
+    "casesPerHundredSquareMile": 328.1,
+    "deathsPerHundredSquareMile": 6.6
+  },
+  {
+    "rank": 0,
+    "country": "dominican republic",
+    "population": 10.8,
+    "cases": 3167,
+    "deaths": 177,
+    "mortality": 5.59,
+    "casesPerMillion": 293,
+    "deathsPerMillion": 16,
+    "landSquareMiles": 18657,
+    "casesPerHundredSquareMile": 16.97,
+    "deathsPerHundredSquareMile": 0.95
   },
   {
     "rank": 0,
@@ -397,17 +540,10 @@
     "deaths": 59,
     "mortality": 1.93,
     "casesPerMillion": 557,
-    "deathsPerMillion": 11
-  },
-  {
-    "rank": 0,
-    "country": "dominican republic",
-    "population": 10.8,
-    "cases": 2967,
-    "deaths": 173,
-    "mortality": 5.83,
-    "casesPerMillion": 275,
-    "deathsPerMillion": 16
+    "deathsPerMillion": 11,
+    "landSquareMiles": 117333,
+    "casesPerHundredSquareMile": 2.61,
+    "deathsPerHundredSquareMile": 0.05
   },
   {
     "rank": 0,
@@ -417,7 +553,10 @@
     "deaths": 109,
     "mortality": 3.93,
     "casesPerMillion": 55,
-    "deathsPerMillion": 2
+    "deathsPerMillion": 2,
+    "landSquareMiles": 428379,
+    "casesPerHundredSquareMile": 0.65,
+    "deathsPerHundredSquareMile": 0.03
   },
   {
     "rank": 0,
@@ -427,27 +566,36 @@
     "deaths": 40,
     "mortality": 1.55,
     "casesPerMillion": 37,
-    "deathsPerMillion": 1
+    "deathsPerMillion": 1,
+    "landSquareMiles": 197255,
+    "casesPerHundredSquareMile": 1.31,
+    "deathsPerHundredSquareMile": 0.02
   },
   {
     "rank": 0,
     "country": "argentina",
     "population": 45.2,
     "cases": 2208,
-    "deaths": 95,
-    "mortality": 4.3,
+    "deaths": 97,
+    "mortality": 4.39,
     "casesPerMillion": 49,
-    "deathsPerMillion": 2
+    "deathsPerMillion": 2,
+    "landSquareMiles": 1056638,
+    "casesPerHundredSquareMile": 0.21,
+    "deathsPerHundredSquareMile": 0.01
   },
   {
     "rank": 0,
     "country": "greece",
     "population": 10.4,
-    "cases": 2114,
-    "deaths": 98,
-    "mortality": 4.64,
-    "casesPerMillion": 203,
-    "deathsPerMillion": 9
+    "cases": 2145,
+    "deaths": 99,
+    "mortality": 4.62,
+    "casesPerMillion": 206,
+    "deathsPerMillion": 10,
+    "landSquareMiles": 49769,
+    "casesPerHundredSquareMile": 4.31,
+    "deathsPerHundredSquareMile": 0.2
   },
   {
     "rank": 0,
@@ -457,7 +605,10 @@
     "deaths": 159,
     "mortality": 7.7,
     "casesPerMillion": 20,
-    "deathsPerMillion": 2
+    "deathsPerMillion": 2,
+    "landSquareMiles": 384344,
+    "casesPerHundredSquareMile": 0.54,
+    "deathsPerHundredSquareMile": 0.04
   },
   {
     "rank": 0,
@@ -467,7 +618,10 @@
     "deaths": 293,
     "mortality": 15.31,
     "casesPerMillion": 44,
-    "deathsPerMillion": 7
+    "deathsPerMillion": 7,
+    "landSquareMiles": 919591,
+    "casesPerHundredSquareMile": 0.21,
+    "deathsPerHundredSquareMile": 0.03
   },
   {
     "rank": 0,
@@ -477,7 +631,10 @@
     "deaths": 120,
     "mortality": 6.87,
     "casesPerMillion": 47,
-    "deathsPerMillion": 3
+    "deathsPerMillion": 3,
+    "landSquareMiles": 172317,
+    "casesPerHundredSquareMile": 1.01,
+    "deathsPerHundredSquareMile": 0.07
   },
   {
     "rank": 0,
@@ -487,17 +644,23 @@
     "deaths": 109,
     "mortality": 7.48,
     "casesPerMillion": 152,
-    "deathsPerMillion": 11
+    "deathsPerMillion": 11,
+    "landSquareMiles": 34954,
+    "casesPerHundredSquareMile": 4.17,
+    "deathsPerHundredSquareMile": 0.31
   },
   {
     "rank": 0,
     "country": "iraq",
     "population": 40.2,
-    "cases": 1352,
-    "deaths": 76,
-    "mortality": 5.62,
+    "cases": 1378,
+    "deaths": 78,
+    "mortality": 5.66,
     "casesPerMillion": 34,
-    "deathsPerMillion": 2
+    "deathsPerMillion": 2,
+    "landSquareMiles": 167692,
+    "casesPerHundredSquareMile": 0.82,
+    "deathsPerHundredSquareMile": 0.05
   },
   {
     "rank": 0,
@@ -507,46 +670,61 @@
     "deaths": 55,
     "mortality": 4.54,
     "casesPerMillion": 577,
-    "deathsPerMillion": 26
+    "deathsPerMillion": 26,
+    "landSquareMiles": 7777,
+    "casesPerHundredSquareMile": 15.58,
+    "deathsPerHundredSquareMile": 0.71
   },
   {
     "rank": 0,
     "country": "england",
     "population": 55.98,
-    "cases": 66330,
-    "deaths": 9594,
-    "mortality": 14.46,
-    "casesPerMillion": 1185,
-    "deathsPerMillion": 171
+    "cases": 69329,
+    "deaths": 10261,
+    "mortality": 14.8,
+    "casesPerMillion": 1238,
+    "deathsPerMillion": 183,
+    "landSquareMiles": 50346,
+    "casesPerHundredSquareMile": 137.71,
+    "deathsPerHundredSquareMile": 20.38
   },
   {
     "rank": 0,
     "country": "scotland",
     "population": 5.45,
-    "cases": 5912,
-    "deaths": 542,
-    "mortality": 9.17,
-    "casesPerMillion": 1085,
-    "deathsPerMillion": 99
+    "cases": 6067,
+    "deaths": 566,
+    "mortality": 9.33,
+    "casesPerMillion": 1113,
+    "deathsPerMillion": 104,
+    "landSquareMiles": 30918,
+    "casesPerHundredSquareMile": 19.62,
+    "deathsPerHundredSquareMile": 1.83
   },
   {
     "rank": 0,
     "country": "wales",
     "population": 3.13,
-    "cases": 5297,
-    "deaths": 369,
-    "mortality": 6.97,
-    "casesPerMillion": 1692,
-    "deathsPerMillion": 118
+    "cases": 5610,
+    "deaths": 384,
+    "mortality": 6.84,
+    "casesPerMillion": 1792,
+    "deathsPerMillion": 123,
+    "landSquareMiles": 8006,
+    "casesPerHundredSquareMile": 70.07,
+    "deathsPerHundredSquareMile": 4.8
   },
   {
     "rank": 0,
     "country": "northern ireland",
     "population": 1.88,
-    "cases": 1806,
-    "deaths": 107,
-    "mortality": 5.92,
-    "casesPerMillion": 961,
-    "deathsPerMillion": 57
+    "cases": 1882,
+    "deaths": 118,
+    "mortality": 6.27,
+    "casesPerMillion": 1001,
+    "deathsPerMillion": 63,
+    "landSquareMiles": 5456,
+    "casesPerHundredSquareMile": 34.49,
+    "deathsPerHundredSquareMile": 2.16
   }
 ]

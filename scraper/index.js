@@ -59,6 +59,7 @@ var path = require('path');
       .reduce((acc, cur) => {
 
         const lookup = approvedCountries[cur.country]
+        const landSquareMiles = Math.ceil(lookup.land / 2.59)
 
           return [
               ...acc,
@@ -72,6 +73,9 @@ var path = require('path');
                   mortality: parseFloat(((cur.deaths / cur.cases) * 100).toFixed(2), 10),
                   casesPerMillion: Math.round(cur.cases / lookup.population),
                   deathsPerMillion: Math.round(cur.deaths / lookup.population),
+                  landSquareMiles,
+                  casesPerHundredSquareMile: parseFloat((cur.cases / landSquareMiles * 100).toFixed(2), 10),
+                  deathsPerHundredSquareMile: parseFloat((cur.deaths / landSquareMiles * 100).toFixed(2), 10),
               }
           ]
       }, [])
@@ -103,19 +107,23 @@ var path = require('path');
         console.log({homenationsPageData})
     
         const englandPopulation = 55.98
+        const englandLand = Math.ceil(130395 / 2.59)
         const englandCases = parseFloat(homenationsPageData[0].replace(/,/g, '').trim(), 2)
         const englandDeaths = parseFloat(homenationsPageData[1].replace(/,/g, '').trim(), 2)
         
         const scotlandPopulation = 5.45
+        const scotlandLand = Math.ceil(80077 / 2.59)
         const scotlandCases = parseFloat(homenationsPageData[2].replace(/,/g, '').trim(), 2)
         const scotlandDeaths = parseFloat(homenationsPageData[3].replace(/,/g, '').trim(), 2)
         
         
         const walesPopulation = 3.13
+        const walesLand = Math.ceil(20735/2.59)
         const walesCases = parseFloat(homenationsPageData[4].replace(/,/g, '').trim(), 2)
         const walesDeaths = parseFloat(homenationsPageData[5].replace(/,/g, '').trim(), 2)
         
         const niPopulation = 1.88
+        const niLand = Math.ceil(14130/2.59)
         const niCases = parseFloat(homenationsPageData[6].replace(/,/g, '').trim(), 2)
         const niDeaths = parseFloat(homenationsPageData[7].replace(/,/g, '').trim(), 2)
     
@@ -129,6 +137,9 @@ var path = require('path');
             "mortality": parseFloat(((englandDeaths / englandCases) * 100).toFixed(2), 10),
             casesPerMillion: Math.round(englandCases / englandPopulation),
             deathsPerMillion: Math.round(englandDeaths / englandPopulation),
+            landSquareMiles: englandLand,
+            casesPerHundredSquareMile: parseFloat((englandCases / englandLand * 100).toFixed(2), 10),
+            deathsPerHundredSquareMile: parseFloat((englandDeaths / englandLand * 100).toFixed(2), 10),
           },
           {
           "rank": 0,
@@ -138,7 +149,10 @@ var path = require('path');
           "deaths": scotlandDeaths,
           "mortality": parseFloat(((scotlandDeaths / scotlandCases) * 100).toFixed(2), 10),
           casesPerMillion: Math.round(scotlandCases / scotlandPopulation),
-          deathsPerMillion: Math.round(scotlandDeaths/ scotlandPopulation)
+          deathsPerMillion: Math.round(scotlandDeaths/ scotlandPopulation),
+          landSquareMiles: scotlandLand,
+          casesPerHundredSquareMile: parseFloat((scotlandCases / scotlandLand * 100).toFixed(2), 10),
+          deathsPerHundredSquareMile: parseFloat((scotlandDeaths / scotlandLand * 100).toFixed(2), 10),
         },
         {
           "rank": 0,
@@ -149,6 +163,9 @@ var path = require('path');
           "mortality": parseFloat(((walesDeaths / walesCases) * 100).toFixed(2), 10),
           casesPerMillion: Math.round(walesCases / walesPopulation),
           deathsPerMillion: Math.round(walesDeaths / walesPopulation),
+          landSquareMiles: walesLand,
+          casesPerHundredSquareMile: parseFloat((walesCases / walesLand * 100).toFixed(2), 10),
+          deathsPerHundredSquareMile: parseFloat((walesDeaths / walesLand * 100).toFixed(2), 10),
         },
         {
           "rank": 0,
@@ -159,6 +176,9 @@ var path = require('path');
           "mortality": parseFloat(((niDeaths / niCases) * 100).toFixed(2), 10),
           casesPerMillion: Math.round(niCases / niPopulation),
           deathsPerMillion: Math.round(niDeaths / niPopulation),
+          landSquareMiles: niLand,
+          casesPerHundredSquareMile: parseFloat((niCases / niLand * 100).toFixed(2), 10),
+          deathsPerHundredSquareMile: parseFloat((niDeaths / niLand * 100).toFixed(2), 10),
         }]
 
         const finalData = [...worldData, ...homeNationsData]

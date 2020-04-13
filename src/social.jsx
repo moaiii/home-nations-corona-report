@@ -21,19 +21,19 @@ export default class Social extends Component {
   handleSocialClick = (e) => {
     e.preventDefault();
     let network = e.currentTarget.getAttribute('data-network'); 
-    let description = "How have the individual Home Nations responded to COVID 19 compare to the rest of the world?" 
+    let description = "How has the Home Nation's response to COVID19 compared with the world?" 
     let href;
 
     switch (network) {
       case 'facebook':
         href = 'https://www.facebook.com/sharer/sharer.php?u=' 
-        + `http://covid-19-home-nations-in-the-world.s3-website-eu-west-1.amazonaws.com`;
+        + `https://homenationsintheworld.com`;
         break;
       
       case 'twitter':
         href = 'https://twitter.com/intent/tweet?text=' 
         + description 
-        + '&url=' + `http://covid-19-home-nations-in-the-world.s3-website-eu-west-1.amazonaws.com`;
+        + '&url=' + `https://homenationsintheworld.com`;
         break;
       
       default: 

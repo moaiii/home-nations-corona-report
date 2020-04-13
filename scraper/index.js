@@ -121,7 +121,7 @@ var path = require('path');
     
         homeNationsData = [
           {
-            "rank": "",
+            "rank": 0,
             "country": "england",
             "population": englandPopulation,
             "cases": englandCases,
@@ -131,7 +131,7 @@ var path = require('path');
             deathsPerMillion: Math.round(englandDeaths / englandPopulation),
           },
           {
-          "rank": "",
+          "rank": 0,
           "country": "scotland",
           "population": scotlandPopulation,
           "cases": scotlandCases,
@@ -141,7 +141,7 @@ var path = require('path');
           deathsPerMillion: Math.round(scotlandDeaths/ scotlandPopulation)
         },
         {
-          "rank": "",
+          "rank": 0,
           "country": "wales",
           "population": walesPopulation,
           "cases": walesCases,
@@ -151,7 +151,7 @@ var path = require('path');
           deathsPerMillion: Math.round(walesDeaths / walesPopulation),
         },
         {
-          "rank": " ireland",
+          "rank": 0,
           "country": "northern ireland",
           "population": niPopulation,
           "cases": niCases,

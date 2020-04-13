@@ -1,4 +1,76 @@
 module.exports = {
+  "saudi arabia": {
+    population: 34.8,
+    gdp: 0
+  },
+  "mexico": {
+    population: 128.9,
+    gdp: 0
+  },
+  "serbia": {
+    population: 8.74,
+    gdp: 0
+  },
+  "indonesia": {
+    population: 273.5,
+    gdp: 0
+  },
+  "algeria": {
+    population: 43.8,
+    gdp: 0
+  },
+  "peru": {
+    population: 32.9,
+    gdp: 0
+  },
+  "dominican republic": {
+    population: 10.8,
+    gdp: 0
+  },
+  "egypt": {
+    population: 102.3,
+    gdp: 0
+  },
+  "morocco": {
+    population: 36.9,
+    gdp: 0
+  },
+  "colombia": {
+    population: 50.8,
+    gdp: 0
+  },
+  "hungary": {
+    population: 9.6,
+    gdp: 0
+  },
+  "greece": {
+    population: 10.4,
+    gdp: 0
+  },
+  "argentina": {
+    population: 45.2,
+    gdp: 0
+  },
+  "panama": {
+    population: 4.3,
+    gdp: 0
+  },
+  "finland": {
+    population: 5.5,
+    gdp: 0
+  },
+  "slovenia": {
+    population: 2.1,
+    gdp: 0
+  },
+  "thailand": {
+    population: 69.8,
+    gdp: 0
+  },
+  "iraq": {
+    population: 40.2,
+    gdp: 0
+  },
   "australia": {
     population: 24.60,
     gdp: 0

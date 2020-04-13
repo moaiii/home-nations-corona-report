@@ -1,5 +1,13 @@
+$black: #282c34;
+
+#root {
+  // @media only screen and (max-width: 762px) {
+  //   overflow-x: hidden;
+  // }
+}
+
 .App {
-  background-color: #282c34;
+  background-color: $black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -7,12 +15,107 @@
   justify-content: flex-start;
   font-size: 0.75rem;
   color: white;
+
+  @media only screen and (max-width: 762px) {
+    padding: 0.5rem;
+  }
+}
+
+.more-info {
+  cursor: pointer;
+  background-color: white;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+}
+
+.modal {
+  display: none;
+  box-sizing: border-box;
+  overflow-y: auto;
+
+  .inner {
+    width: 100%;
+    max-width: 424px;
+    margin: 0 auto;
+  }
+
+  .modal-header {
+    align-items: center;
+    justify-content: space-between;
+    color: $black;
+    display: flex
+  }
+
+  h3 {
+    cursor: pointer;
+    &:hover {
+      color: #C12D3A
+    }
+  }
+
+  h2 {
+    color: $black;
+    position: relative;
+
+    &::after {
+      content: ' ';
+      height:5px;
+      background-color: $black;
+      width: 90%;
+      position: absolute;
+      bottom: -0.5rem;
+      left: 0;
+    }
+  }
+
+  padding: 1rem 2rem;
+
+  .item {
+    display: flex;
+    align-items: flex-start;
+    color: $black;
+    margin: 2rem 0;
+
+    p {
+      margin: 0;
+      opacity: 0.8;    
+    }
+
+    strong {
+      color: #C12D3A;
+      min-width: 20%;
+      margin-right: 1rem;
+    }
+  }
+
+  transition: transform 0.25s ease;
+  transform: translateY(1000%) rotateX(90deg);
+  
+  &.--open {
+    display: block;
+    transition: transform 0.25s ease;
+    transform: translateY(0%) rotateX(0deg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 999;
+  }
 }
 
 .header {
   width: 100%;
     max-width: 762px;
     margin: 1rem auto;
+
+    > p {
+      @media only screen and (max-width: 500px) {
+        font-size: 0.75rem !important;
+      }
+    }
 
 }
 
@@ -22,6 +125,17 @@
   position: relative;
   margin: 0 auto;
   border-collapse: collapse; 
+  display: table;
+
+  @media only screen and (max-width: 762px) {
+    // display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  @media only screen and (max-width: 492px) {
+    font-size: 0.55rem;
+  }
 
   tfoot {
     td {
@@ -42,7 +156,7 @@
     th {
       background-color: #3C3F46;
       border-bottom: 2px solid white;
-      z-index: 999;
+      z-index: 99;
       position: sticky;
       top: 0;
     }
@@ -65,7 +179,7 @@
       }
       &.--england {
         background-color: white;
-        color: #282c34;
+        color: $black;
       }
     }
   }
@@ -100,14 +214,28 @@
         color: #282c34;
       }
 
+      p {
+        margin: 0.3rem 0;
+      }
+
       padding: 1rem 0.5rem;
       cursor: pointer;
       text-transform: capitalize;
+      vertical-align: top;
+      text-align: left;
     }
 
     &.--data {
       border-right:hidden;
       text-transform: uppercase;
+
+      &.--country {
+        p {
+          @media only screen and (max-width: 762px) {
+            display: none;
+          }
+        }
+      }
     }
 
     div.flag {
@@ -125,6 +253,11 @@
       img {
         width: 100%;
       }
+
+      @media only screen and (max-width: 400px) {
+        width: 1rem;
+        height: 1rem;
+      }
     }
   }
 }
@@ -133,6 +266,58 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+
+  @media only screen and (max-width: 762px) {
+    flex-direction: column;
+  }
+
+  .lhs {
+    display: flex;
+    align-items: center;
+
+    @media only screen and (max-width: 762px) {
+      width: 100%;
+    }
+  }
+
+  h1 {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    
+    @media only screen and (max-width: 500px) {
+      font-size: 1rem;
+    }
+  }
+
+  &::after {
+    content: ' ';
+    height: 1px;
+    background-color: #ffffff13;
+    width: 100vw;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+  }
+
+  div.flag {
+    width: 1rem;
+    height: 1rem;
+    background-size: 1rem; 
+    overflow: hidden;
+    background-color: white;
+    background-position: center;
+    border-radius: 50%;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    border: 3px solid white;
+
+    img {
+      width: 100%;
+    }
+  }
 }
 
 .social__link {
@@ -145,6 +330,10 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  
+  @media only screen and (max-width: 762px) {
+    justify-content: flex-start;
+  }
 }
 
 .Social__logo {
@@ -164,6 +353,10 @@
   display: flex;
   flex-direction: column-reverse;
   height: 100%;
+
+  @media only screen and (max-width: 762px) {
+    width: 100%;
+  }
 }
 
 .social__link {
